@@ -118,7 +118,7 @@ slide inside the `SLIDES` array:
 
 ---
 
-## 5. Presenting (a concise 14-slide plan)
+## 5. Presenting (a concise 13-slide plan)
 
 1. `F` for fullscreen, start on slide 1.
 2. Slide 2 — compare CD installation with download link/Product Key.
@@ -126,12 +126,12 @@ slide inside the `SLIDES` array:
 4. Slide 4 — choose **Explore a Sample Company** and open **Bellwether Garden Supply**.
 5. Slide 5 — show the complete program interface.
 6. Slide 6 — point out the title bar and menu bar.
-7. Slides 7–11 — explain what each menu contains, then show the File/Edit, List/Maintain, Analysis/Options, and Reports/Services/Help screenshots.
-8. Slide 12 — focus on the File menu and show how to back up company data.
-9. Slide 13 — explain uninstalling Peachtree through Control Panel.
-10. Slide 14 — invite questions.
+7. Slides 7–10 — explain the menu groups through the File/Edit, List/Maintain, Analysis/Options, and Reports/Services/Help screenshots.
+8. Slide 11 — focus on the File menu and show how to back up company data.
+9. Slide 12 — explain uninstalling Peachtree through Control Panel.
+10. Slide 13 — invite questions.
 
-The deck is condensed to 14 presentation slides and follows the lecture topics. The
+The deck is condensed to 13 presentation slides and follows the lecture topics. The
 installation details beyond the two methods are intentionally left for the presenter to explain.
 
 ---

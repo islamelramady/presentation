@@ -637,21 +637,6 @@ const ALL_SLIDES = [
             "<p><b>المتحدث ٣ من ٦ · واجهة البرنامج</b></p><p>شريط العنوان بيعرّفنا اسم الشركة المفتوحة، فنتأكد منه قبل ما نشتغل على البيانات. وتحته مباشرة شريط القوائم، اللي بيرتب أوامر البرنامج. افتكروا الفرق ببساطة: شريط العنوان بيقول لنا <i>إحنا شغالين على أنهي شركة</i>، وشريط القوائم بيقول لنا <i>نقدر نعمل إيه</i>.</p><p>انتقال: المتحدث الرابع هيشرح القوائم ويعرض أمثلة عليها.</p>")
   },
 
-  {
-    id: "menu-overview",
-    layout: "cards",
-    section: "tour",
-    title: t("What’s in the menu bar?", "ماذا يوجد في شريط القوائم؟"),
-    cards: [
-      { ico: "i-disk", h: t("File & Edit", "File و Edit"), p: t("Open, create, print, back up; correct and find entries.", "فتح وإنشاء وطباعة ونسخ احتياطي؛ تصحيح البيانات والبحث.") },
-      { ico: "i-list", h: t("List & Maintain", "List و Maintain"), p: t("View customer, sales, purchase and account lists; add or edit customers and vendors.", "عرض قوائم العملاء والمبيعات والمشتريات والحسابات؛ إضافة العملاء والموردين أو تعديلهم.") },
-      { ico: "i-globe", h: t("Analysis", "Analysis"), p: t("Financial analysis tools, including Cash Flow Management.", "أدوات التحليل المالي، ومنها إدارة التدفقات النقدية.") },
-      { ico: "i-help", h: t("Options, Reports & Forms, Services, Help", "Options و Reports & Forms و Services و Help"), p: t("Settings, reports, online services and support.", "الإعدادات والتقارير والخدمات الإلكترونية والمساعدة.") }
-    ],
-    note: t("<p><b>Presenter 4 of 6 · Menu tour, part one</b></p><p>Before opening each menu, let’s group them by purpose. File and Edit handle company files and corrections; List and Maintain help us view and manage records; Analysis offers financial tools; the remaining menus provide settings, reports, services, and help. We’ll now look at the actual menu examples.</p>",
-            "<p><b>المتحدث ٤ من ٦ · جولة القوائم، الجزء الأول</b></p><p>قبل ما نفتح كل قائمة، خلّونا نقسمها حسب وظيفتها. File وEdit لملفات الشركة والتصحيح؛ وList وMaintain لعرض السجلات وإدارتها؛ وAnalysis للأدوات المالية؛ وباقي القوائم للإعدادات والتقارير والخدمات والمساعدة. دلوقتي هنشوف أمثلة القوائم نفسها.</p>")
-  },
-
   /* ========== 24 · MENU MAP ========== */
   {
     id: "menu-core",
@@ -665,8 +650,8 @@ const ALL_SLIDES = [
       shot("menu-edit", "Edit", "Edit", "Open the Edit menu.", "افتح قائمة Edit.",
         "Correction · Find Ctrl+F", "تصحيح · بحث Ctrl+F")
     ],
-    note: t("<p><b>Presenter 4 of 6 · Menu tour, part one</b></p><p>The File menu contains company-level actions such as creating or opening a company, printing, and making a backup. Edit is for working with entered information: it includes correction tools and Find, which can be opened with Ctrl+F. These menus help us manage the company and locate or correct its entries.</p>",
-            "<p><b>المتحدث ٤ من ٦ · جولة القوائم، الجزء الأول</b></p><p>قائمة File فيها أوامر على مستوى الشركة، زي إنشاء شركة أو فتحها والطباعة وعمل نسخة احتياطية. أما Edit فبتساعدنا نتعامل مع المعلومات اللي دخلناها، ومنها التصحيح والبحث Find، واختصاره Ctrl+F. يعني الأولى لإدارة ملف الشركة، والتانية للبحث عن البيانات وتصحيحها.</p>")
+    note: t("<p><b>Presenter 4 of 6 · Menu tour, part one</b></p><p>We can group the menu bar by purpose. First, File and Edit help us manage company files and work with entered information. File contains company-level actions such as creating or opening a company, printing, and making a backup. Edit includes correction tools and Find, which can be opened with Ctrl+F.</p>",
+            "<p><b>المتحدث ٤ من ٦ · جولة القوائم، الجزء الأول</b></p><p>نقدر نقسم شريط القوائم حسب الوظيفة. أولًا، File وEdit بيساعدونا ندير ملفات الشركة ونتعامل مع البيانات المُدخلة. File فيها أوامر زي إنشاء شركة أو فتحها والطباعة وعمل نسخة احتياطية. أما Edit ففيها أدوات التصحيح والبحث Find، واختصاره Ctrl+F.</p>")
   },
 
   {
@@ -681,8 +666,8 @@ const ALL_SLIDES = [
       shot("23-maintain-menu", "Maintain", "Maintain", "Open the Maintain menu.", "افتح قائمة Maintain.",
         "Add/edit Customers and Vendors", "إضافة وتعديل العملاء والموردين")
     ],
-    note: t("<p><b>Presenter 4 of 6 · Menu tour, part one</b></p><p>List is where we browse organized records—for example customers, sales, purchases, and the Chart of Accounts. Maintain is where we create or update key records, such as customer and vendor details. Put simply: use List to look through information, and Maintain to add or change it.</p><p>Pass to Presenter 5 for the other menu groups.</p>",
-            "<p><b>المتحدث ٤ من ٦ · جولة القوائم، الجزء الأول</b></p><p>قائمة List بنستعرض منها السجلات المرتبة، زي العملاء والمبيعات والمشتريات ودليل الحسابات. أما Maintain فنستخدمها لإنشاء أو تحديث البيانات الأساسية، زي بيانات العميل والمورد. باختصار: List لعرض المعلومات، وMaintain لإضافتها أو تعديلها.</p><p>سلّموا للمتحدث الخامس عشان يكمل باقي مجموعات القوائم.</p>")
+    note: t("<p><b>Presenter 4 of 6 · Menu tour, part one</b></p><p>The next two menus focus on records: List lets us browse organized information such as customers, sales, purchases, and the Chart of Accounts. Maintain is where we create or update key records, including customer and vendor details. In short, List is for viewing; Maintain is for adding or changing data.</p><p>Pass to Presenter 5 for the analysis and support menus.</p>",
+            "<p><b>المتحدث ٤ من ٦ · جولة القوائم، الجزء الأول</b></p><p>القائمتان التاليتان خاصتان بالسجلات: من List بنستعرض معلومات مرتبة زي العملاء والمبيعات والمشتريات ودليل الحسابات. ومن Maintain بننشئ أو نحدّث البيانات الأساسية، ومنها بيانات العملاء والموردين. باختصار، List للعرض وMaintain للإضافة أو التعديل.</p><p>سلّموا للمتحدث الخامس عشان يشرح قوائم التحليل والخدمات.</p>")
   },
 
   /* ========== ANALYSIS & OPTIONS ========== */
@@ -698,8 +683,8 @@ const ALL_SLIDES = [
       shot("menu-options", "Options", "Options", "Options menu: program and company settings.", "قائمة Options: إعدادات البرنامج والشركة.",
         "Global · System date · Internet · Defaults", "عام · تاريخ النظام · الإنترنت · الإعدادات الافتراضية")
     ],
-    note: t("<p><b>Presenter 5 of 6 · Menu tour, part two</b></p><p>Analysis gathers tools for understanding business finances, including cash-flow information. Options is different: it contains settings that affect the program or company. When demonstrating, point to the menu names and connect each to its purpose—Analysis to review, Options to configure.</p>",
-            "<p><b>المتحدث ٥ من ٦ · جولة القوائم، الجزء الثاني</b></p><p>قائمة Analysis فيها أدوات تساعدنا نفهم الوضع المالي للنشاط، ومنها معلومات التدفقات النقدية. أما Options فوظيفتها مختلفة: فيها إعدادات تخص البرنامج أو الشركة. وأنت بتشرح، أشر لاسم كل قائمة واربطه بغرضها: Analysis للمراجعة والتحليل، وOptions للضبط والإعداد.</p>")
+    note: t("<p><b>Presenter 5 of 6 · Menu tour, part two</b></p><p>Continuing our menu groups: Analysis gathers tools for understanding business finances, including cash-flow information. Options contains settings that affect the program or company. Point to each menu name and connect its purpose—Analysis to review, Options to configure.</p>",
+            "<p><b>المتحدث ٥ من ٦ · جولة القوائم، الجزء الثاني</b></p><p>نكمل تقسيم القوائم: Analysis فيها أدوات تساعدنا نفهم الوضع المالي للنشاط، ومنها معلومات التدفقات النقدية. أما Options ففيها إعدادات تخص البرنامج أو الشركة. أشر لاسم كل قائمة واربطه بغرضها: Analysis للمراجعة والتحليل، وOptions للضبط والإعداد.</p>")
   },
 
   {
@@ -906,7 +891,7 @@ const ALL_SLIDES = [
 ];
 
 const COMPACT_SLIDE_IDS = new Set([
-  "cover", "s01", "sample", "sample-focus", "interface-full", "anatomy", "menu-overview", "menu-core", "menu-more", "list-menu", "other-menus",
+  "cover", "s01", "sample", "sample-focus", "interface-full", "anatomy", "menu-core", "menu-more", "list-menu", "other-menus",
   "backup", "uninstall",
   "thanks", "checklist"
 ]);
