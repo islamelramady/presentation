@@ -1,0 +1,15 @@
+PUT YOUR SCREENSHOTS IN THIS FOLDER
+===================================
+
+Save each picture here using the EXACT file name printed on the slide placeholder,
+for example:  01-insert-cd-autorun.png
+
+The presentation (index.html) finds the picture automatically and replaces the
+dashed placeholder with it — then refresh the browser (F5).
+
+Extensions accepted: .png  .jpg  .jpeg  .webp
+
+The full list of the 26 file names (and what each one must show) is on the last
+slide of the deck ("Appendix — Screenshot checklist") and in ../README.md.
+
+Tip: keep images around 1400 px wide so the presentation stays fast.

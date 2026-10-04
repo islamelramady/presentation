@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Installing &amp; Exploring Peachtree Complete Accounting — Lab Presentation</title>
+<meta name="description" content="A professional slide presentation for the college lab: installing, starting and exploring Peachtree Complete Accounting (PCA).">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2310b981'/%3E%3Ctext x='32' y='45' font-family='Segoe UI,sans-serif' font-size='38' font-weight='700' text-anchor='middle' fill='%23052e23'%3EP%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ============ ICON SPRITE ============ -->
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-chev-right" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-chev-left" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-grid" viewBox="0 0 24 24"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  <symbol id="i-note" viewBox="0 0 24 24"><path d="M5 3h9l5 5v13H5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M14 3v5h5M8 13h8M8 17h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-expand" viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9.6 9.2a2.5 2.5 0 114 2c-.9.7-1.6 1.2-1.6 2.3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="17" r="1.1" fill="currentColor"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-camera" viewBox="0 0 24 24"><path d="M3 8h4l1.6-2h6.8L17 8h4v11H3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="13.4" r="3.3" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><path d="M9 9h10v10H9zM5 15V5h10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M6 4l14 8-14 8z" fill="currentColor"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 012-2h13v16H6a2 2 0 00-2 2z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M19 17H6" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 4l9 16H3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 10v4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/><circle cx="12" cy="16.8" r="1.1" fill="currentColor"/></symbol>
+  <symbol id="i-timer" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 9v4l2.6 1.8M9 3h6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-list" viewBox="0 0 24 24"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-disk" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="2.6" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c2.6 3 2.6 15 0 18M12 3c-2.6 3-2.6 15 0 18" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0l-4-4m4 4l4-4M4 19h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-print" viewBox="0 0 24 24"><path d="M7 9V4h10v5M7 18H5a2 2 0 01-2-2v-4a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2h-2M7 15h10v5H7z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+</svg>
+
+<!-- ============ BACKGROUND ============ -->
+<div class="bg" aria-hidden="true">
+  <div class="bg-grid"></div>
+  <div class="glow glow-a"></div>
+  <div class="glow glow-b"></div>
+  <div class="glow glow-c"></div>
+</div>
+
+<!-- ============ TOP BAR ============ -->
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">PCA</span>
+    <span class="brand-text">
+      <strong id="brandTitle">Peachtree Complete Accounting</strong>
+      <small id="brandSub">Lab Presentation</small>
+    </span>
+  </div>
+
+  <div class="topbar-actions">
+    <button class="btn ghost" id="btnLang" title="Switch language / تغيير اللغة" aria-label="Switch language">
+      <svg class="ico"><use href="#i-globe"></use></svg><span id="langLabel">عربي</span>
+    </button>
+    <button class="btn ghost only-wide" id="btnPrint" title="Print / export to PDF">
+      <svg class="ico"><use href="#i-print"></use></svg><span data-i18n="print">Print</span>
+    </button>
+    <button class="btn ghost only-wide" id="btnNotes" title="Presenter notes (N)">
+      <svg class="ico"><use href="#i-note"></use></svg><span data-i18n="notes">Notes</span>
+    </button>
+    <button class="btn ghost only-wide" id="btnOverview" title="Slide overview (O)">
+      <svg class="ico"><use href="#i-grid"></use></svg><span data-i18n="overview">Overview</span>
+    </button>
+    <button class="btn ghost" id="btnFull" title="Fullscreen (F)">
+      <svg class="ico"><use href="#i-expand"></use></svg>
+    </button>
+    <button class="btn ghost" id="btnHelp" title="Keyboard shortcuts (?)">
+      <svg class="ico"><use href="#i-help"></use></svg>
+    </button>
+  </div>
+</header>
+
+<div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+<!-- ============ DECK ============ -->
+<main class="deck" id="deck" tabindex="-1" aria-live="polite"></main>
+
+<!-- ============ BOTTOM BAR ============ -->
+<footer class="botbar">
+  <div class="section-tag" id="sectionTag"><span class="dot"></span><span id="sectionName">Introduction</span></div>
+
+  <div class="pager">
+    <button class="nav-btn" id="btnPrev" title="Previous slide (←)" aria-label="Previous slide">
+      <svg class="ico flip"><use href="#i-chev-left"></use></svg>
+    </button>
+    <div class="counter"><span id="cur">1</span><span class="sep">/</span><span id="total">1</span></div>
+    <button class="nav-btn" id="btnNext" title="Next slide (→)" aria-label="Next slide">
+      <svg class="ico flip"><use href="#i-chev-right"></use></svg>
+    </button>
+  </div>
+
+  <div class="dots" id="dots" aria-hidden="true"></div>
+
+  <div class="hint" id="hint">
+    <kbd>←</kbd><kbd>→</kbd> <span data-i18n="navigate">navigate</span> · <kbd>O</kbd> <span data-i18n="overview">overview</span> · <kbd>?</kbd> <span data-i18n="shortcuts">shortcuts</span>
+  </div>
+</footer>
+
+<!-- ============ PRESENTER NOTES ============ -->
+<aside class="notes" id="notes" hidden>
+  <div class="notes-head">
+    <span class="notes-title"><svg class="ico"><use href="#i-note"></use></svg> <span data-i18n="presenterNotes">Presenter notes</span></span>
+    <span class="timer" id="timer">00:00</span>
+    <button class="icon-btn" id="btnTimer" title="Start / pause timer"><svg class="ico"><use href="#i-timer"></use></svg></button>
+    <button class="icon-btn" id="btnNotesClose" title="Hide notes"><svg class="ico"><use href="#i-close"></use></svg></button>
+  </div>
+  <div class="notes-body" id="notesBody"></div>
+</aside>
+
+<!-- ============ OVERVIEW ============ -->
+<div class="modal" id="overview" hidden>
+  <div class="modal-card">
+    <div class="modal-head">
+      <h2 data-i18n="slideOverview">Slide overview</h2>
+      <label class="switch">
+        <input type="checkbox" id="tgAppendix">
+        <span data-i18n="showAppendix">Show appendix</span>
+      </label>
+      <button class="icon-btn" data-close><svg class="ico"><use href="#i-close"></use></svg></button>
+    </div>
+    <div class="overview-grid" id="overviewGrid"></div>
+  </div>
+</div>
+
+<!-- ============ HELP ============ -->
+<div class="modal" id="help" hidden>
+  <div class="modal-card narrow">
+    <div class="modal-head">
+      <h2 data-i18n="shortcuts">Keyboard shortcuts</h2>
+      <button class="icon-btn" data-close><svg class="ico"><use href="#i-close"></use></svg></button>
+    </div>
+    <div class="modal-body">
+      <ul class="keys" id="keysList"></ul>
+      <div class="note-block">
+        <strong data-i18n="screenshotsWhere">Where do the screenshots go?</strong>
+        <p data-i18n="screenshotsWhereBody">Put every screenshot in the <code>assets/img/</code> folder using the exact file name printed on each placeholder — the slide swaps the placeholder for your picture automatically.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="icon-btn lb-close" data-lb-close><svg class="ico"><use href="#i-close"></use></svg></button>
+  <figure class="lb-figure">
+    <img id="lbImg" alt="">
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+
+<script src="assets/js/slides.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
