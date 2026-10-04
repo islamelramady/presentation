@@ -59,8 +59,8 @@ const ALL_SLIDES = [
         "Illustration of an accounting workspace with sales, customers, and navigation.",
         "تصميم توضيحي لواجهة محاسبية تعرض المبيعات والعملاء وأدوات التنقل.")
     ],
-    note: t("Greet the audience, read the title, and state the aim: by the end of this presentation you will be able to install, start, explore and uninstall Peachtree Complete Accounting on a single computer.",
-            "رحّب بالطلاب، اقرأ العنوان، واذكر الهدف: في نهاية العرض سيكون الطالب قادرًا على تثبيت وتشغيل واستكشاف وإزالة البرنامج على جهاز واحد.")
+    note: t("<p><b>Presenter 1 of 6 · Opening and installation</b></p><p>Welcome everyone. Today we will introduce Peachtree Complete Accounting and follow its practical journey: how it is installed, how we open a sample company, what we see in the program, and how we protect or remove it when needed. The image is an illustration to help us picture an accounting workspace.</p><p>Transition: Let’s begin with the two ways the program can be installed.</p>",
+            "<p><b>المتحدث ١ من ٦ · الافتتاح والتثبيت</b></p><p>أهلًا بيكم. النهارده هنتعرف على برنامج Peachtree Complete Accounting وناخد جولة عملية: إزاي بيتثبت، وإزاي نفتح شركة تجريبية، وإيه اللي بنشوفه جوه البرنامج، وإزاي نحافظ على بياناتنا أو نزيل البرنامج عند الحاجة. الصورة هنا توضيحية لفكرة مساحة العمل المحاسبية.</p><p>انتقال: نبدأ بطريقتَي تثبيت البرنامج.</p>")
   },
 
   /* ========== 2 · LEARNING OBJECTIVES ========== */
@@ -156,7 +156,8 @@ const ALL_SLIDES = [
         ]
       }
     ],
-    note: t("Ask the class: “CD or no CD?” Then reveal the matching installation route.", "اسأل الطلاب: «فيه CD ولا مفيش؟» وبعدها وضّح طريقة التثبيت المناسبة.")
+    note: t("<p><b>Presenter 1 of 6 · Opening and installation</b></p><p>There are two installation routes. On a computer with a disc drive, insert the CD, start the installer, and follow the prompts such as Yes, OK, or Agree until Finish. On a newer computer without a disc drive, use the authorized download link and Product Key, then download and install the program and complete activation.</p><p>Ask the audience which route fits a computer without a CD drive. Close by handing over to Presenter 2, who will show what to choose when Peachtree opens.</p>",
+            "<p><b>المتحدث ١ من ٦ · الافتتاح والتثبيت</b></p><p>قدامنا طريقتين للتثبيت. لو الجهاز فيه مشغل أقراص، بندخل الـCD ونبدأ التثبيت ونتابع النوافذ، زي Yes وOK وAgree، لحد Finish. أما لو مفيهوش مشغل أقراص، بنستخدم رابط التحميل المعتمد ومفتاح المنتج، وبعدها ننزّل البرنامج ونثبته ونكمل التفعيل.</p><p>اسألوا الحضور: لو الجهاز مفيهوش CD، نستخدم أنهي طريقة؟ وفي النهاية سلّموا الكلام للمتحدث الثاني عشان يشرح اختيارات بداية البرنامج.</p>")
   },
 
   /* ========== 6 · STEP 1 (ALT) ========== */
@@ -530,8 +531,8 @@ const ALL_SLIDES = [
         p: t("View information about the program.", "تتعرف على معلومات عن البرنامج.")
       }
     ],
-    note: t("Point out the four choices. Keep each description brief, then emphasize Explore a Sample Company as the choice for today's demo.",
-            "اشر إلى الاختيارات الأربعة بسرعة، ثم ركّز على Explore a Sample Company باعتباره اختيارنا في العرض.")
+    note: t("<p><b>Presenter 2 of 6 · Starting and exploring</b></p><p>When Peachtree opens, it offers four choices: open an existing company, create a new company, explore a sample company, or learn about Peachtree. Each serves a different purpose. For today’s demonstration we choose <i>Explore a Sample Company</i>, because it lets us learn from ready-made data without setting up a company from scratch.</p><p>Transition: Let’s open the sample company together.</p>",
+            "<p><b>المتحدث ٢ من ٦ · تشغيل البرنامج واستكشافه</b></p><p>لما Peachtree يفتح، بيظهر لنا أربع اختيارات: نفتح شركة موجودة، أو ننشئ شركة جديدة، أو نستكشف شركة تجريبية، أو نقرأ معلومات عن البرنامج. كل اختيار له غرض. في عرضنا هنختار <i>Explore a Sample Company</i>، لأنها بتخلينا نتعلم من بيانات جاهزة من غير ما نجهّز شركة من الصفر.</p><p>انتقال: تعالوا نفتح الشركة التجريبية.</p>")
   },
 
   {
@@ -556,8 +557,8 @@ const ALL_SLIDES = [
         "Capture Bellwether Garden Supply selected and the Okay button visible.",
         "التقط نافذة الشركات مع تحديد Bellwether Garden Supply وظهور زر Okay.")
     ],
-    note: t("Use the welcome-screen screenshot to point to Explore, then show Bellwether. Explain that this gives beginners a safe, ready-made place to learn before building their own company.",
-            "أشر في صورة شاشة البداية إلى Explore، ثم اعرض Bellwether. وضّح أنها شركة جاهزة وآمنة للتعلم قبل إنشاء شركة خاصة.")
+    note: t("<p><b>Presenter 2 of 6 · Starting and exploring</b></p><p>First, select <i>Explore a Sample Company</i>. From the sample-company list, choose <i>Bellwether Garden Supply</i> and continue. Bellwether is a prepared example company, so we can look around and understand the program before entering information for a real business.</p><p>Point to both screenshots as you describe the sequence. Then hand over to Presenter 3 for a tour of the main window.</p>",
+            "<p><b>المتحدث ٢ من ٦ · تشغيل البرنامج واستكشافه</b></p><p>أول حاجة نختار <i>Explore a Sample Company</i>. بعد كده من قائمة الشركات التجريبية نحدد <i>Bellwether Garden Supply</i> ونكمل. دي شركة مجهزة مسبقًا، فنقدر نستكشف البرنامج ونتعلم عليه قبل إدخال بيانات شركة حقيقية.</p><p>أشر للصورتين بالترتيب وأنت بتشرح. بعد كده سلّم للمتحدث الثالث عشان ياخدنا في جولة داخل النافذة الرئيسية.</p>")
   },
 
   /* ========== 21 · CREATE YOUR OWN COMPANY ========== */
@@ -606,8 +607,8 @@ const ALL_SLIDES = [
         "Full Peachtree window showing the title bar, menus, navigation and work area.",
         "واجهة Peachtree كاملة وتظهر شريط العنوان والقوائم والتنقل ومساحة العمل.")
     ],
-    note: t("Give the class a moment to see the whole window. Then point out that we will focus on the title bar and menu bar next.",
-            "اعرض الواجهة كاملة للحظة، ثم وضّح إننا هنركز بعد كده على شريط العنوان وشريط القوائم.")
+    note: t("<p><b>Presenter 3 of 6 · The program interface</b></p><p>Take a moment to look at the complete Peachtree window. It brings together the company we opened, the menus and navigation tools, and the central work area where accounting tasks are handled. This is the overall map; next we will zoom in on two landmarks at the top.</p>",
+            "<p><b>المتحدث ٣ من ٦ · واجهة البرنامج</b></p><p>خلّونا نبص لحظة على نافذة Peachtree كاملة. هنلاقي فيها الشركة اللي فتحناها، والقوائم وأدوات التنقل، ومساحة العمل اللي بننفذ فيها المهام المحاسبية. دي الخريطة العامة للبرنامج؛ وبعدها هنركز على علامتين مهمتين في أعلى النافذة.</p>")
   },
 
   {
@@ -632,8 +633,8 @@ const ALL_SLIDES = [
         "Main program commands.",
         "أوامر البرنامج الرئيسية.")
     ],
-    note: t("Make the link explicit: the title bar tells you WHICH company you are working on, the menu bar tells you WHAT you can do.",
-            "اربط بوضوح: شريط العنوان يخبرك بالشركة التي تعمل عليها، وشريط القوائم يخبرك بما يمكنك فعله.")
+    note: t("<p><b>Presenter 3 of 6 · The program interface</b></p><p>The title bar identifies the company currently open, so check it before working with data. Directly below it, the menu bar groups the program’s commands. A useful way to remember the difference is: the title bar tells us <i>which company</i> we are in; the menu bar tells us <i>what actions</i> are available.</p><p>Transition: Presenter 4 will walk us through the menus and show examples.</p>",
+            "<p><b>المتحدث ٣ من ٦ · واجهة البرنامج</b></p><p>شريط العنوان بيعرّفنا اسم الشركة المفتوحة، فنتأكد منه قبل ما نشتغل على البيانات. وتحته مباشرة شريط القوائم، اللي بيرتب أوامر البرنامج. افتكروا الفرق ببساطة: شريط العنوان بيقول لنا <i>إحنا شغالين على أنهي شركة</i>، وشريط القوائم بيقول لنا <i>نقدر نعمل إيه</i>.</p><p>انتقال: المتحدث الرابع هيشرح القوائم ويعرض أمثلة عليها.</p>")
   },
 
   {
@@ -647,8 +648,8 @@ const ALL_SLIDES = [
       { ico: "i-globe", h: t("Analysis", "Analysis"), p: t("Financial analysis tools, including Cash Flow Management.", "أدوات التحليل المالي، ومنها إدارة التدفقات النقدية.") },
       { ico: "i-help", h: t("Options, Reports & Forms, Services, Help", "Options و Reports & Forms و Services و Help"), p: t("Settings, reports, online services and support.", "الإعدادات والتقارير والخدمات الإلكترونية والمساعدة.") }
     ],
-    note: t("Briefly explain what each menu group contains, then use the next slides to show the menu screenshots.",
-            "اشرح باختصار محتوى كل مجموعة من القوائم، ثم اعرض صور القوائم في الشرائح التالية.")
+    note: t("<p><b>Presenter 4 of 6 · Menu tour, part one</b></p><p>Before opening each menu, let’s group them by purpose. File and Edit handle company files and corrections; List and Maintain help us view and manage records; Analysis offers financial tools; the remaining menus provide settings, reports, services, and help. We’ll now look at the actual menu examples.</p>",
+            "<p><b>المتحدث ٤ من ٦ · جولة القوائم، الجزء الأول</b></p><p>قبل ما نفتح كل قائمة، خلّونا نقسمها حسب وظيفتها. File وEdit لملفات الشركة والتصحيح؛ وList وMaintain لعرض السجلات وإدارتها؛ وAnalysis للأدوات المالية؛ وباقي القوائم للإعدادات والتقارير والخدمات والمساعدة. دلوقتي هنشوف أمثلة القوائم نفسها.</p>")
   },
 
   /* ========== 24 · MENU MAP ========== */
@@ -664,7 +665,8 @@ const ALL_SLIDES = [
       shot("menu-edit", "Edit", "Edit", "Open the Edit menu.", "افتح قائمة Edit.",
         "Correction · Find Ctrl+F", "تصحيح · بحث Ctrl+F")
     ],
-    note: t("File: company actions. Edit: correct and find entries.", "File لعمليات الشركة، وEdit لتصحيح البيانات والبحث.")
+    note: t("<p><b>Presenter 4 of 6 · Menu tour, part one</b></p><p>The File menu contains company-level actions such as creating or opening a company, printing, and making a backup. Edit is for working with entered information: it includes correction tools and Find, which can be opened with Ctrl+F. These menus help us manage the company and locate or correct its entries.</p>",
+            "<p><b>المتحدث ٤ من ٦ · جولة القوائم، الجزء الأول</b></p><p>قائمة File فيها أوامر على مستوى الشركة، زي إنشاء شركة أو فتحها والطباعة وعمل نسخة احتياطية. أما Edit فبتساعدنا نتعامل مع المعلومات اللي دخلناها، ومنها التصحيح والبحث Find، واختصاره Ctrl+F. يعني الأولى لإدارة ملف الشركة، والتانية للبحث عن البيانات وتصحيحها.</p>")
   },
 
   {
@@ -679,7 +681,8 @@ const ALL_SLIDES = [
       shot("23-maintain-menu", "Maintain", "Maintain", "Open the Maintain menu.", "افتح قائمة Maintain.",
         "Add/edit Customers and Vendors", "إضافة وتعديل العملاء والموردين")
     ],
-    note: t("List displays records; Maintain adds and edits them.", "List لعرض السجلات؛ وMaintain لإضافتها وتعديلها.")
+    note: t("<p><b>Presenter 4 of 6 · Menu tour, part one</b></p><p>List is where we browse organized records—for example customers, sales, purchases, and the Chart of Accounts. Maintain is where we create or update key records, such as customer and vendor details. Put simply: use List to look through information, and Maintain to add or change it.</p><p>Pass to Presenter 5 for the other menu groups.</p>",
+            "<p><b>المتحدث ٤ من ٦ · جولة القوائم، الجزء الأول</b></p><p>قائمة List بنستعرض منها السجلات المرتبة، زي العملاء والمبيعات والمشتريات ودليل الحسابات. أما Maintain فنستخدمها لإنشاء أو تحديث البيانات الأساسية، زي بيانات العميل والمورد. باختصار: List لعرض المعلومات، وMaintain لإضافتها أو تعديلها.</p><p>سلّموا للمتحدث الخامس عشان يكمل باقي مجموعات القوائم.</p>")
   },
 
   /* ========== ANALYSIS & OPTIONS ========== */
@@ -695,8 +698,8 @@ const ALL_SLIDES = [
       shot("menu-options", "Options", "Options", "Options menu: program and company settings.", "قائمة Options: إعدادات البرنامج والشركة.",
         "Global · System date · Internet · Defaults", "عام · تاريخ النظام · الإنترنت · الإعدادات الافتراضية")
     ],
-    note: t("Analysis provides financial and business tools. Options is for system and company settings.",
-            "تضم Analysis أدوات مالية وتحليلية، بينما تُستخدم Options لإعدادات النظام والشركة.")
+    note: t("<p><b>Presenter 5 of 6 · Menu tour, part two</b></p><p>Analysis gathers tools for understanding business finances, including cash-flow information. Options is different: it contains settings that affect the program or company. When demonstrating, point to the menu names and connect each to its purpose—Analysis to review, Options to configure.</p>",
+            "<p><b>المتحدث ٥ من ٦ · جولة القوائم، الجزء الثاني</b></p><p>قائمة Analysis فيها أدوات تساعدنا نفهم الوضع المالي للنشاط، ومنها معلومات التدفقات النقدية. أما Options فوظيفتها مختلفة: فيها إعدادات تخص البرنامج أو الشركة. وأنت بتشرح، أشر لاسم كل قائمة واربطه بغرضها: Analysis للمراجعة والتحليل، وOptions للضبط والإعداد.</p>")
   },
 
   {
@@ -713,8 +716,8 @@ const ALL_SLIDES = [
       shot("menu-help", "Help", "Help", "Help menu with manuals and support options.", "قائمة Help وبها الأدلة وخيارات الدعم.",
         "Help · What’s new · Guides · Manuals", "المساعدة · الجديد · أدلة الاستخدام")
     ],
-    note: t("Use Reports & Forms to find reports; Services provides online tools and updates; Help has guides and support.",
-            "من Reports & Forms تصل للتقارير، وتضم Services الخدمات والتحديثات، أما Help ففيها الأدلة والدعم.")
+    note: t("<p><b>Presenter 5 of 6 · Menu tour, part two</b></p><p>Reports & Forms is where we go to find reports and forms, such as financial or inventory reports. Services provides online services and update options. Help gives access to guidance and support when we need instructions. That completes our tour of the main menu groups; next we’ll see how to protect company data.</p>",
+            "<p><b>المتحدث ٥ من ٦ · جولة القوائم، الجزء الثاني</b></p><p>لما نحتاج تقرير أو نموذج، نروح إلى Reports & Forms، زي التقارير المالية أو تقارير المخزون. Services فيها الخدمات الإلكترونية وخيارات التحديث. وHelp بنرجع لها عشان الإرشادات والدعم. كده خلصنا جولة القوائم الرئيسية؛ والجزء الجاي عن حماية بيانات الشركة.</p>")
   },
 
   /* ========== 26 · MAINTAIN MENU ========== */
@@ -812,8 +815,8 @@ const ALL_SLIDES = [
         "The File menu with Back up highlighted in the list.", "قائمة File وبداخلها خيار Back up.",
         "Choose Back up to start the backup.", "اختر Back up لبدء النسخ الاحتياطي.")
     ],
-    note: t("Focus on the File menu: choose Back up, select where to save the company backup, and confirm. Uninstallation is covered on the next slide.",
-            "ركّز على قائمة File: اختر Back up، وحدد مكان حفظ نسخة الشركة، ثم أكّد. إزالة التثبيت في الشريحة التالية.")
+    note: t("<p><b>Presenter 6 of 6 · Backup, uninstall, and closing</b></p><p>A backup is a separate copy of the company data that we can keep in case we need to restore it. From the open company, choose File, then Back up; select a suitable save location and confirm. Do this before closing, and make sure you know where the backup was saved.</p><p>Transition: The final practical topic is removing the program from Windows.</p>",
+            "<p><b>المتحدث ٦ من ٦ · النسخ الاحتياطي والإزالة والختام</b></p><p>النسخة الاحتياطية هي نسخة منفصلة من بيانات الشركة نحتفظ بها لو احتجنا نسترجع البيانات بعدين. من داخل الشركة نختار File ثم Back up، ونحدد مكان مناسب للحفظ ونؤكد العملية. اعمل النسخة قبل الإغلاق، واتأكد إنك عارف اتحفظت فين.</p><p>انتقال: آخر موضوع عملي هو إزالة البرنامج من Windows.</p>")
   },
 
   /* ========== 30 · UNINSTALL STEPS ========== */
@@ -829,8 +832,8 @@ const ALL_SLIDES = [
       { n: "02", ico: "i-list", h: t("Programs", "Programs"), p: t("Go to Programs and Features.", "انتقل إلى Programs and Features.") },
       { n: "03", ico: "i-close", h: t("Choose Peachtree", "اختر Peachtree"), p: t("Select Uninstall to remove it.", "اختر Uninstall لإزالة البرنامج.") }
     ],
-    note: t("Explain that Peachtree is removed from Windows Control Panel. Do not uninstall on a lab computer unless the instructor asks.",
-            "اشرح أن إزالة Peachtree تتم من Control Panel في Windows. لا تزل البرنامج من جهاز المعمل إلا إذا طلب المدرّس ذلك.")
+    note: t("<p><b>Presenter 6 of 6 · Backup, uninstall, and closing</b></p><p>To remove Peachtree, open Control Panel in Windows, go to Programs and Programs and Features, select Peachtree, and choose Uninstall. The exact wording can vary slightly between Windows versions, but the route is through the installed-programs list. Only do this on your own computer or when the instructor asks.</p><p>Then thank the audience and invite questions.</p>",
+            "<p><b>المتحدث ٦ من ٦ · النسخ الاحتياطي والإزالة والختام</b></p><p>لإزالة Peachtree، نفتح Control Panel في Windows، وندخل على Programs ثم Programs and Features، ونحدد Peachtree ونختار Uninstall. ممكن تختلف التسمية شوية حسب إصدار Windows، لكن المسار بيكون من قائمة البرامج المثبتة. ما تعملش ده إلا على جهازك الشخصي أو لو المدرّس طلب.</p><p>بعدها اشكروا الحضور وافتحوا المجال للأسئلة.</p>")
   },
 
   /* ========== 32 · RESOURCES ========== */
@@ -863,8 +866,8 @@ const ALL_SLIDES = [
       t("Peachtree Complete Accounting", "برنامج Peachtree Complete Accounting"),
       t("Install · Start · Explore", "تثبيت · تشغيل · استكشاف")
     ],
-    note: t("Thank the class, then invite questions. Keep the appendix slide (screenshot checklist) available in the overview in case you need to fill a gap live.",
-            "اشكر الطلاب ثم ادعُهم لطرح الأسئلة. اترك شريحة الملحق (قائمة لقطات الشاشة) متاحة في نظرة عامة لو احتجت لملء فراغ أثناء العرض.")
+    note: t("<p><b>Presenter 6 of 6 · Backup, uninstall, and closing</b></p><p>That brings us to the end of our presentation. We covered installation, starting with a sample company, the main parts of the interface and menus, and protecting or removing the program. Thank you for listening—what questions do you have?</p>",
+            "<p><b>المتحدث ٦ من ٦ · النسخ الاحتياطي والإزالة والختام</b></p><p>وبكده نكون وصلنا لنهاية العرض. اتكلمنا عن التثبيت، وبدء العمل بشركة تجريبية، وأجزاء الواجهة والقوائم الرئيسية، وحماية البيانات أو إزالة البرنامج. شكرًا لحسن استماعكم، عندكم أي أسئلة؟</p>")
   },
 
   /* ========== 34 · APPENDIX · SCREENSHOT CHECKLIST ========== */
